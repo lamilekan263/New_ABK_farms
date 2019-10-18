@@ -1,0 +1,376 @@
+body{
+background-color: #f4f4f4;
+  color: #555;
+  font-family:  sans-serif;
+  font-size: 16px;
+  line-height: 2.0em;
+  scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+}
+
+
+/* *************Beginignof the whole-section styling that conatins
+both the header styling which has the slass container and the main-body which
+has the class main-wrapper 
+******************************/
+
+.whole-section{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    overflow: hidden;
+}
+
+/* The whole section styling ends here */
+
+
+
+/******** Beginning of the header styling which contains 
+a div with the class name "container" thats covering the head and the 
+the side nav-bar
+*************** */
+#ei{
+    background: #6ab47b;
+    color: white;
+}
+h2 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 12px;
+    padding: 25px;
+}
+header{
+    
+    background-color: #6ab47b;
+    width: auto;
+    margin-bottom: 0px;
+
+}
+.branding{
+    float: left;
+}
+nav{
+    float:right;
+    padding-top:30px;
+    
+}
+nav ul li a{
+    font-size: 20px;
+}
+nav li{
+    padding:25px;
+    float:left;
+    margin-top:-40px;
+}
+nav ul{
+    list-style-type: none;
+}
+header li a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+header li a:hover{
+    outline:none;
+    text-decoration: none;
+    background-color:#599a68;
+    border: 2px solid #599a68;
+    border-width: 0.60em;
+    border-radius: 1em;
+    color: #f4f4f4;
+    transition-duration:2s;
+    
+}   
+
+.social{
+    margin-bottom: 15px;
+    background: #599a68;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.social a img:hover{
+    background-color: #fff;
+    color: white;
+    transition:1s;
+}
+
+/* ***********************
+it ends here
+************************** */
+
+/* *******************
+The styling of the main-body which has theclass name main-wrapper
+begins here 
+ */
+.main-wrapper{
+    margin: 0 ;
+    padding:23px;
+
+}
+
+#show-me{
+  margin-top: -19.5px;
+  
+  width: 100%;
+  height:800px;
+  background: url(../img/farmer.jpeg) no-repeat center center/cover;
+  opacity: 1;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  filter:drop-shadow(12px 12px 16px rgb(23,52,89));
+}
+#show-me .container{
+    color:white;
+    border:1px solid white;
+    width:50%;
+    padding:30px;
+    font-size:30px;
+    font-weight:lighter;
+    line-height:1.3em;
+    text-align:center;
+    margin:0 auto;
+}
+#showcase{
+    text-align:center;
+    margin-top:30px;
+}
+
+/* *****styling the main-products which is inside the main-wrapper
+begins here
+*/
+
+.main-products{
+    margin-top: 50px;
+}
+.main-products h1{
+    text-align: center;
+}
+.main-products h3{
+    text-align:center;
+}
+/* **************
+styling the products which is inside the produce but the 
+produce isnt styled because its been styled in 
+another css folder called flex.css
+************* */
+.about{
+    margin:10% 5% 5% 5%;
+}
+.about h1{
+    text-align: center;
+}
+.products{
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 1.50);
+    text-align: center;
+    width:85%;
+    transition-duration:1s;
+    margin:15px auto;
+}
+.products:hover{
+    width:100%;
+    box-shadow: 0 18px 36px rgba(0,0,0,0,30), 0 14px 11px rgba(0,0,0,0,22);
+}
+.products img{
+width: 100%;
+height: auto;
+}
+.products p{
+    font-size:1.5em;
+}
+
+
+
+/* The styling of the products ends here */
+
+/* styling of the main products ends here */
+
+/* styling of the main-wrapper ends here */
+
+
+
+/* **********************
+
+styling of the contact page starts here which is having the class name contact
+and which embodies a div called TOUCH that contains both the address and 
+phone numbers/email and also  a form
+
+************************* */
+#contact{
+    background-color: #6ab47b;
+    color:white;
+    margin-bottom:-21px;
+}
+#contact h2{
+    text-align: center;
+}
+
+/* styling of the div called
+Touch
+begins here
+*/
+.touch{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* styling of touch ends here */
+/*******************
+The styling of the contact page ends here
+********************/
+form input{
+    display: block;
+    border-radius: 25px;
+    border: none;
+    width: 80%;
+    margin: 15px;
+    padding: 5px;
+}
+
+#button{
+    border: none;
+    background-color: #6ab47b;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    align-content: center;
+}
+#button:hover{
+    background-color:#599a68;
+}
+
+#text{
+    border-radius: 25px;
+    border: none;
+    width: 80%;
+    margin: 15px;
+    padding: 5px;
+}
+form{
+    margin: 15px;
+    padding: 15px;
+    display:block;
+    
+}
+form h2{
+    text-align:center;
+}
+
+
+
+#phone{
+    display: inline;
+}
+.touch img{
+    width: 10%;
+    height: auto;
+}
+footer{
+    background: #599a68;
+    color: white;
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+}
+
+#submit-button{
+    background-color: #599a68;
+    color: #f4f4f4;
+    border: none;
+    font-family: roboto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#second-section{
+    background-image: url(..//img/c15fb37d.jpeg);
+    background-size: cover;
+    max-width:100%;
+    height:700px;
+    background-repeat: no-repeat;
+    margin-top:35px;
+    overflow:hidden;
+}
+span i{
+    font-size:30px;
+    height:30px;
+    transition: 2s;
+    text-align:center;
+    
+}
+
+#img-ceo{
+    margin-left:20px;
+    width:100%;
+    height:auto;
+    border-radius:50%;
+    box-sizing:content-box;
+    filter:drop-shadow(12px 12px 16px rgb(23,52,89));
+    
+}
+#img-ceo img{
+    border-radius:50px;
+    width:80%;
+}
+section{
+    margin-top:50px;
+}
+
+section h2{
+    text-align:center;
+    margin-top:30px;
+    font-weight:bolder;
+    font-size:30px;
+}
+
+div h3{
+    overflow:hidden;
+    position: relative;
+    padding:30px;
+    width:100%;
+    box-sizing:border-box;
+}
+.about_container{
+    width:50%;
+    padding:0px;
+    font-size:20px;
+    font-weight:lighter;
+    line-height:1.4em;
+    text-align:center;
+    margin:0 auto;
+}
+.about_container h1{
+    margin-top: 70px;
+}
+#img-ceo{
+    padding-top:40px;
+}
+
+@media(max-width:760px){
+    #show-me{
+        margin-top: -19.5px;
+        
+        width: 100%;
+        height:400px;
+        background: url(../img/farmer.jpeg) no-repeat center center/cover;
+        opacity: 0.5;
+      }
+
+}
+@media(min-width:760px){
+    
+    
+    
+}
+
+
